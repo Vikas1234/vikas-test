@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/291616/ontologies/2014/5/math#"
+     xml:base="http://www.semanticweb.org/291616/ontologies/2014/5/math"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math/1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Algebra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Algebra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Pure_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Applied_mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Applied_mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Arthur_Cayley -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Arthur_Cayley">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quintic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Calculus_and_analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Calculus_and_analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Pure_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Combinatorics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Combinatorics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Pure_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Completing_the_square -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Completing_the_square">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Computing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Computing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Applied_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Discriminant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Discriminant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Dynamical_systems_and_differential_equations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Dynamical_systems_and_differential_equations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Applied_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Factoring_by_inspection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Factoring_by_inspection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Galois_theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Galois_theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quintic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Game_theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Game_theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Applied_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Geometry_and_topology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Geometry_and_topology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Pure_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Group_theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Group_theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quintic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Information_theory_and_signal_processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Information_theory_and_signal_processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Applied_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Intercept_form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Intercept_form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Linear_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Jenkins-Traub_method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Jenkins-Traub_method">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quintic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Laguerres_method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Laguerres_method">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quintic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Linear_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Linear_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Algebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Logic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Logic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Pure_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Math -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Math"/>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Mathematical_physics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Mathematical_physics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Applied_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Number_theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Number_theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Pure_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Operations_research -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Operations_research">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Applied_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Polynomial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Polynomial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Algebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Probability_and_statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Probability_and_statistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Applied_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Pure_mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Pure_mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Algebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_factorization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_factorization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_formula -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_formula">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Quintic_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quintic_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Algebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Reduced_quadratic_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Reduced_quadratic_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Summation_notation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Summation_notation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Polynomial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Trigonometry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Trigonometry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Pure_mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Tschirnhaus_transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Tschirnhaus_transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quintic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Two-point_form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Two-point_form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Linear_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Vietas_formulas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Vietas_formulas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quadratic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Bring–Jerrard_normal_form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Bring–Jerrard_normal_form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Quintic_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Point–slope_form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Point–slope_form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Linear_equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/291616/ontologies/2014/5/math#Slope–intercept_form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/291616/ontologies/2014/5/math#Slope–intercept_form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/291616/ontologies/2014/5/math#Linear_equation"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
